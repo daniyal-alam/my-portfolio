@@ -1,0 +1,101 @@
+html, body{
+    font-family: 'Heebo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e5e5e5;
+}
+
+h1, p, h2, h3{
+    margin: 0;
+}
+
+header nav{
+    height: 50px;
+    background-color: #fff;
+    /* text-align: right; another way*/
+    display: flex;
+    /* for horizontal we use justify content  */
+    justify-content: flex-end;
+    padding-right: 60px;
+}
+
+header nav ul{
+    margin: 0;
+    display: flex;
+    /* for vertically we can say align items */
+    align-items: center;
+    gap: 33px; 
+}
+
+header nav li{
+    list-style: none;
+}
+
+header nav li a{
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1;
+    font-size: 20px;
+    text-align: right;
+    color: black;
+}
+
+/* hero section */
+
+.hero-section{
+    background-color: #fff;
+    padding: 150px 0;
+}
+
+.hero-section .intro{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.hero-section .intro .column-left h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    color: #21243D;
+}
+
+.hero-section .intro .column-left p{
+    margin-top: 40px;
+}
+
+.hero-section .intro .column-left{
+    max-width: 500px;
+    user-select: none;
+}
+
+.hero-section .intro .column-left button{
+    margin-top: 38px;
+    border-radius: 4px;
+    background-color: darksalmon;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 4px #aaa;
+    text-align: center;
+    max-width: fit-content;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.hero-section .intro .column-left a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.hero-section .intro .column-right{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img-pro{
+    border-radius: 50%;
+}
