@@ -99,3 +99,79 @@ header nav li a{
 .img-pro{
     border-radius: 50%;
 }
+
+.posts-section{
+    background-color: #EDF7FA;
+    padding: 32px 0;
+}
+
+.posts-section .posts-section-inner{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.posts-section .posts-header h2{
+    color: #21243D;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.posts-section .posts-section-inner .posts-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.posts-section .posts-section-inner .posts-header a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #00A8CC;
+    text-decoration: none;
+}
+
+.posts{
+    display: flex;
+    gap: 20px;
+}
+
+.posts .posts-items{
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    padding: 10px;
+}
+
+.posts .posts-items header h3{
+    font-weight: 600;
+    font-size: 25px;
+    color: #21243D;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+
+.posts .posts-items .meta{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+    user-select: none;
+}
+
+.posts .posts-items p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    user-select: none;
+}
+
+.posts .posts-items a{
+    text-decoration: none;
+    color: #00A8CC;
+}
