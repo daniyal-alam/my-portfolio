@@ -240,6 +240,33 @@ header nav li a{
     font-size: 15px;
 }
 
+/* footer-section */
+
+.footers{
+    padding: 32px 0;
+    background-color: #fff;
+}
+
+.footer-inner{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    gap: 42px;
+    padding: 0 550px
+}
+
+.footers .footer-inner .imag{
+    width: 30px;
+    height: 30px;
+}
+
+.footers .footer-para p{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
 @media all and (max-width: 600px){
     .hero-section .intro{
         flex-direction: column-reverse;
